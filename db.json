@@ -1,16 +1,22 @@
 {
-  "posts":[
+  "tasks": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+      "text": "Learn about Axios",
+      "day": "Sunday",
+      "reminder": true,
+      "id": 1
+    },
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "text": "Learn promises JS",
+      "day": "Today",
+      "reminder": false,
+      "id": 2
+    },
+    {
+      "text": "Do some freecodecamp",
+      "day": "During the week",
+      "reminder": true,
+      "id": 3
     }
   ]
 }
